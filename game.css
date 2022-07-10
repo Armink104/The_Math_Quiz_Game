@@ -1,0 +1,46 @@
+body
+{
+	background-color: #fff;
+	height: 100%;
+	width:100%;
+	background-image: linear-gradient(60deg, #f4b3c7, #e996cd, #a75fcb, #d88cff, #60bef8);
+	background-size: 600%600%;
+	animation: bgAnimatedGradient 4s infinite linear;
+}
+
+@keyframes bgAnimatedGradient
+{
+	0%{
+		background-position: 0 85%;
+	}
+	50%{
+		background-position: 100% 20%;
+	}
+	100%{
+		background-position: 0% 85%;
+	}
+}
+
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
